@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AD.Admin">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AD.Farmer">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Farmer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AD.Miller">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Miller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AD.SFCA">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>SFCA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AD.User">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAAACCCASACgAUgIwAEAAEIAAAACAAAAAgACECI=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bidding" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AD.Purchase">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MBAQIBAABAAAAAQAAAAQCABAAAAAQACBAAAAgQAAECQ=</HashCode>
+      <FileName>Purchase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Products" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AD.Bidding">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQQIAAQAAAAAAAQAAAAEAAAAAEAAACBAAAAgQAAECA=</HashCode>
+      <FileName>Bidding.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Purchase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AD.Products">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAACAAAAQAAAACAQAAAAFAACCAQAIgoAACBA=</HashCode>
+      <FileName>Products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AD.FinalProducts">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAgAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FinalProducts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AD.RawProducts">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAgAAAAAAAAACAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RawProducts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
